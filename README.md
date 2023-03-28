@@ -150,3 +150,7 @@ Now we will create a route for this function. Open the `routes/web.php` file and
     
     Route::post('/sendQbLabMail',[MailController::class,'sendMail'])->name('send.email');
 ```
+Run the project and check the mail is sent or not.
+```
+    php artisan serve
+```
